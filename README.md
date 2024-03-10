@@ -44,3 +44,12 @@ git push #следующие разы
 2. коммит должен быть атомарным
 3. следует придерживаться стандарта Conventional Commits, подробнее по [ссылке.](https://www.conventionalcommits.org/ru/v1.0.0-beta.4/#%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F "Conventional Commits")
 
+## [Статусы файлов в Git](https://practicum.yandex.ru/trainer/git-basics/lesson/860e0bf4-ebd6-4e13-87fa-f76d92cfd11f/ "Статусы файлов в Git")
+
+#### Шпаргалка
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged -- "git commit" --> tracked/comitted;
+```
+
